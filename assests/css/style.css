@@ -1,3 +1,113 @@
-body{
+*{
+    margin:0;
+    padding:0;
+}
+.border
+{
     background-color: black;
+}
+#box1{
+    border:35px solid dimgray;
+    width:1400px;
+    height:600px;
+
+}
+#header img{
+    height:100px;
+}
+#header ul{
+    float:right;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#header ul li{
+    display:inline;
+    margin-right:55px;
+    margin-top: 40px;
+    
+}
+#header ul li a{
+    color:floralwhite;
+    text-decoration: none;
+    font-size: 20px;
+}
+#content1
+{
+    width:55%;
+    height:405px;
+    background-color:black;
+    margin-left: 75px;
+    margin-top: 55px;
+    float:left;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:inherit;
+    color:ghostwhite;
+    font-display: 95px;
+    font-weight:normal;
+}
+#content1 thicker{
+    font-size: larger;
+    color:honeydew;
+    font-style:oblique;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-display: 145px;
+    font-weight: 890;
+}
+.section1{
+    background-color: black;
+    color:ivory;
+    font-size:medium;
+}
+.section2{
+    background-color: black;
+    color:lavenderblush;
+    font-size:small;
+}
+.section3{
+    background-color: black;
+    color:linen;
+    font-size:small;
+}
+mark{
+    background-color:lawngreen;
+    color:ghostwhite;
+}
+button{
+    background-color:lawngreen;
+    border:black;
+    color:black;
+    padding:18px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 7px;
+}
+button box2{
+    background-color: black;
+    border:ghostwhite;
+    color:ghostwhite;
+    padding:16px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 7px;
+}
+#content2
+{
+    width:30%;
+    height:300px;
+    background-color:black;
+    margin-right: 80px;
+    margin-top: 60px;
+    float:right;
+}
+#content2 img{
+    width:100%;
+}
+#footer{
+    width: 200px;
+    height:100px;
 }
